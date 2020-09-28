@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "a0b4af01be798d37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9619b2e12b0969f",
+        "type": "split",
+        "children": [
+          {
+            "id": "aae97bf5e5e4d13d",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thoughts/202009270832 Website Layout.md",
+                "mode": "source"
+              }
+            },
+            "group": "51928df5628a6887"
+          },
+          {
+            "id": "ed868dc8ab8b7728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thoughts/202009270832 Website Layout.md",
+                "mode": "preview"
+              }
+            },
+            "group": "51928df5628a6887"
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d0f89f44f7084fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c75b43c9c9afbe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f141df5266adfef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1fdab2e5dd9bf096",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#splurge"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 482
+  },
+  "right": {
+    "id": "4f7b6ee579e5908b",
+    "type": "split",
+    "children": [
+      {
+        "id": "826f67eb540eb579",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "048756787e9db430",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Thoughts/202009270832 Website Layout.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "202009270832+1000.md",
+    "Tracks/Sketchbook/202009011830 One Shot.md",
+    "Tracks/Sketchbook/Untitled.md",
+    "Tracks/Splurge/202026090000 Code Breaker.md",
+    "VLog/202002240000 [VLog 11] Captains Log - Situation Report.md",
+    "VLog/202002170000 [VLog 10] Performance Prep.md",
+    "Tracks/Splurge/202026090000 Splurge Test.md",
+    "Thoughts/202009261224 Name Storming.md",
+    "202009261224 Wordstorming a name for my music machine_DiskStation_Sep-26-1303-2020_Conflict.md",
+    "202009261224 Name Storming.md"
+  ]
+}

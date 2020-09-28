@@ -1,0 +1,79 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+@font-face {
+    font-family: 'Mechsuit';
+    src: url('/assets/Mechsuit.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@layer base {
+    h1 {
+        font-family: 'Mechsuit';
+        color: #f0faff;
+        /* text-shadow: #ffffff 0 0 0.1rem, #3d9184 0 0 0.2rem, #3d9184 0 0 0.3rem, #3d9184 0 0 0.4rem, #3d9184 0 0 0.8rem; */
+        text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+    }
+
+    body {
+        font-family: 'Roboto';
+        color: #fcfcff;
+        background-color: black;
+        /* filter: blur(0.05vmin) saturate(0.8); */
+        background-image: url('/assets/holo_1920.jpg');
+        background-size: 100vw;
+        background-attachment: fixed;
+        backdrop-filter: blur(2px);
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.banner {
+    background: none;
+    /* background-image: url('/assets/holo_1920.jpg');
+    background-size: 100vw;
+    background-position-x: center; */
+}
+
+.introHero {
+    width: 30vw;
+    filter: saturate(0.8);
+    text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+.textGlow {
+    text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+}
+
+.boxGlow {
+    box-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+}
+
+.boxGlow-black {
+    box-shadow: #000c 0 0 0.1rem, #000a 0 0 0.2rem, #000a 0 0 0.4rem, #000a 0 0 0.6rem, #000a 0 0 1.2rem;
+}
+
+.font-mechsuit {
+    font-family: 'Mechsuit';
+}
+
+.font-banner {
+    font-size: 9vw;
+}

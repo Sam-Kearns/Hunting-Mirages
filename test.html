@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+.tlFlex {
+  display: flex;
+  flex-flow: column;
+}
+
+.line {
+  position: absolute;
+  height: 100%;
+  margin-left: 50vw;
+  border-left: 3px solid;    
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-bottom: -7vw;
+/*   border: 2px solid; */
+}
+
+.event .card {
+  position: relative;
+  width: 13.1vw;
+  height: 10vw;
+  padding: 1vw;
+  color: white;
+}
+
+.card:hover {
+  z-index: 100;
+}
+
+.blog .card {
+  background-color: red;
+}
+
+.blog {
+  margin-left: 5vw;
+}
+
+.blog .rightspace {
+  width: 29vw;
+  border-top: 3px solid red;
+  margin-top: 1rem;
+  padding-right: 1vw;
+  text-align: right;
+}
+
+.vlog {
+  margin-left: 50vw;
+}
+.vlog .leftspace {
+  width: 10vw;
+  margin-top: 1rem;
+  border-top: 3px solid purple;  
+}
+.vlog .card {
+  background-color: purple;
+}
+.vlog .rightspace {
+}
+
+.wip {
+  margin-left: 25vw;
+}
+
+.wip .card {
+    background-color: blue;
+}
+.wip .rightspace {
+  width: 10vw;
+  margin-top: 1rem;
+  border-top: 3px solid blue;
+}
+
+.admin {
+  margin-left: 50vw;
+}
+
+.admin .card {
+    background-color: green;
+}
+.admin .leftspace {
+  width: 15vw;
+  margin-top: 1rem;
+  border-top: 3px solid green;  
+}
+
+.release {
+  margin-left: 50vw;
+}
+.release .leftspace {
+  width: 25vw;
+  margin-top: 1rem;
+  border-top: 3px solid yellow;  
+}
+.release .leftspace:before {
+  content: "";
+  padding-left: 1vw;
+}
+.release .card {
+  background-color: yellow;
+  color: black;
+}
+        </style>
+    </head>
+    <body>
+        <div class="timeline">
+            <div class="tlFlex">
+                <div class="line"></div>
+                <div class="event blog">
+                  <div class="leftspace"></div>
+                  <div class="card">Event 1</div>
+                  <div class="rightspace">2020 Sep 27</div>
+                </div>
+                <div class="event vlog">
+                  <div class="leftspace">2020 Sep 23</div>
+                  <div class="card">Event 2</div>
+                  <div class="rightspace"></div>
+                </div>
+                <div class="event wip">
+                  <div class="leftspace"></div>
+                  <div class="card">Event 3</div>
+                  <div class="rightspace">2020 Sep 15</div>
+                </div>
+                <div class="event release">
+                  <div class="leftspace">2020 Sep 7</div>
+                  <div class="card">Event 4</div>
+                  <div class="rightspace"></div>
+                </div>
+                <div class="event admin">
+                  <div class="leftspace">2020 Sep 1</div>
+                  <div class="card">Event 5</div>
+                  <div class="rightspace"></div>
+                </div>
+                <div class="event vlog">
+                  <div class="leftspace">2020 Sep 23</div>
+                  <div class="card">Event 2</div>
+                  <div class="rightspace"></div>
+                </div>
+                <div class="event blog">
+                  <div class="leftspace"></div>
+                  <div class="card">Event 1</div>
+                  <div class="rightspace">2020 Sep 27</div>
+                </div>
+                <div class="event release">
+                  <div class="leftspace">2020 Sep 7</div>
+                  <div class="card">Event 4</div>
+                  <div class="rightspace"></div>
+                </div>
+            </div>
+            </div>
+                </body>
+</html>
