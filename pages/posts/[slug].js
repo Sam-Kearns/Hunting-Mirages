@@ -14,10 +14,10 @@ import markdownToHtml from '../../lib/markdownToHtml'
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
-  console.log(`Got post: ${JSON.stringify(post)}`)
-  // if (!router.isFallback && !post?.slug) {
-  //   return <ErrorPage statusCode={404} />
-  // }
+  // console.log(`Got post: ${JSON.stringify(post)}`)
+  if (!router.isFallback && !post?.slug) {
+    return <ErrorPage statusCode={404} />
+  }
   return (
     <Layout preview={preview}>
       <Container>
@@ -52,7 +52,7 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  console.log(`getStaticProps()`)
+  // console.log(`getStaticProps()`)
   const post = getPostBySlug(params.slug, [
     'title',
     'date',

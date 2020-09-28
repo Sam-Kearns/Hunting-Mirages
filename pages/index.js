@@ -52,7 +52,6 @@ export async function getStaticProps() {
 
     for (let i = 0; i < allPosts.length; i++) {
         if (allPosts[i].excerpt) {
-            console.log(`converting excerpt for ${allPosts[i].title}`);
             allPosts[i].excerpt = await markdownToHtml(allPosts[i].excerpt);
         }
     }
