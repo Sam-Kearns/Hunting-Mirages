@@ -1,7 +1,7 @@
 export default function PostBody({ youtubeId }) {
     const url = `https://www.youtube.com/embed/${youtubeId}`;
     return (
-        <div style={{position: 'relative', width: '100%', 'padding-bottom': '56.25%'}}>
+        <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
             <iframe
                 className="boxGlow"
                 style={{position:'absolute'}}
