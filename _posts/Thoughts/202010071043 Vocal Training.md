@@ -1,0 +1,5 @@
+Had the second lesson with my new vocal teacher Marcel tonight. He took me through a technique of using a motorocycle sound to learn basic distortion and I picked it up very quickly.
+
+Practice for the next week is to use this technique around a B3-D4 note. Only as loud as it needs to be and no more. Also trying not to open mouth too wide.
+
+I have a tendency to open my mouth very wide when I go loud and high which Marcel says is not optimal as it causes the larynx to rise and makes the sound thin. He gave me another technique to practice keeping my larynx lower, by starting with a low "Santa belly laugh Ho Ho Ho" sound and then sing a high Oooo note while keeping the low larynx, and mostly closed mouth with rounded lips. Then practice increasing volume of the note without letting the larynx rise or the mouth to open widen.
