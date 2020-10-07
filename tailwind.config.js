@@ -29,6 +29,12 @@ module.exports = {
         medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
     },
+    screens: {
+      'sm': '640px', // => @media (min-width: 640px) { ... }
+      'md': '768px', // => @media (min-width: 768px) { ... }
+      'lg': '1024px', // => @media (min-width: 1024px) { ... }
+      'xl': '1280px', // => @media (min-width: 1280px) { ... }
+    }
   },
   future: {
     removeDeprecatedGapUtilities: true,

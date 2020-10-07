@@ -1,0 +1,83 @@
+{
+  "main": {
+    "id": "10c6bed0970c31f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e90385591d0bb8b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/Thoughts/202010061041 Website Knowledge Base Setup.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af2b991e96c9729e",
+    "type": "split",
+    "children": [
+      {
+        "id": "66e8862e1ceb6870",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12bbd8542facd66a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "aad421dda1ecdebe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39bae51a724c433b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad3a0f9813ad2a45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7639bc6a4ecc8f2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/Thoughts/202010061041 Website Knowledge Base Setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "_posts/Thoughts/202010061041 Website Knowledge Base Setup.md",
+    "_posts/Thoughts/202009270832 Website Layout.md",
+    "_posts/Thoughts/202009261224 Name Storming.md"
+  ]
+}

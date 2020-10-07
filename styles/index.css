@@ -34,19 +34,6 @@
     }
 }
 
-.banner {
-    background: none;
-    /* background-image: url('/assets/holo_1920.jpg');
-    background-size: 100vw;
-    background-position-x: center; */
-}
-
-.introHero {
-    width: 30vw;
-    filter: saturate(0.8);
-    text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
-}
-
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
@@ -58,22 +45,37 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-.textGlow {
-    text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
-}
 
-.boxGlow {
-    box-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
-}
+    .textGlow { text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem; }
+    .textGlowSmall { text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem; }
+    .boxGlow { box-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem; }
+    .boxGlow-black { box-shadow: #000c 0 0 0.1rem, #000a 0 0 0.2rem, #000a 0 0 0.4rem, #000a 0 0 0.6rem, #000a 0 0 1.2rem; }
 
-.boxGlow-black {
-    box-shadow: #000c 0 0 0.1rem, #000a 0 0 0.2rem, #000a 0 0 0.4rem, #000a 0 0 0.6rem, #000a 0 0 1.2rem;
-}
+    .font-mechsuit { font-family: 'Mechsuit'; }
+    .font-banner { font-size: 9vw; }
 
-.font-mechsuit {
-    font-family: 'Mechsuit';
-}
+@layer utilities {
+    @responsive {
+        .ml-50vw { margin-left: 50vw; }
 
-.font-banner {
-    font-size: 9vw;
+        .mr-5pc { margin-right: 5%; }
+        .ml-5pc { margin-left: 5%; }
+        .ml-10pc { margin-left: 10%; }
+        .ml-20pc { margin-left: 20%; }
+        .ml-30pc { margin-left: 30%; }
+        .ml-50pc { margin-left: 50%; }
+        .ml-60pc { margin-left: 60%; }
+        .ml-80pc { margin-left: 80%; }
+
+        .pl-50pc { padding-left: 50%; }
+        .pr-50pc { padding-right: 50%; }
+
+        .w-5pc { width: 5%; }
+        .w-15pc { width: 15%; }
+        .w-20pc { width: 20%; }
+        .w-25pc { width: 25%; }
+        .w-50pc { width: 50%; }
+        .w-80pc { width: 80%; }
+        .w-85pc { width: 85%; }
+    }
 }
