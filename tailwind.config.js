@@ -4,12 +4,12 @@ module.exports = {
         options: {
             whitelist: [
                 'xl:flex-row-reverse',
-                'pl-50pc',
-                'pr-50pc',
-                'w-25pc',
-                'w-50pc',
-                'text-right',
-                'text-left',
+                'xl:pl-50pc',
+                'xl:pr-50pc',
+                'xl:w-25pc',
+                'xl:w-50pc',
+                'xl:text-right',
+                'xl:text-left',
             ]
         }
     },
