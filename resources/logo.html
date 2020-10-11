@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'Mechsuit';
+            src: url('../public/assets/Mechsuit.otf');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .flexContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            margin-top: 150px;
+        }
+
+        .box {
+            background-color: black;
+            box-shadow: #000c 0 0 10px, #000a 0 0 20px, #000a 0 0 40px, #000a 0 0 60px, #000a 0 0 120px;
+            width: 512px;
+            height: 512px;
+            
+        }
+
+        .text {
+            font-family: 'Mechsuit';
+            font-size: 140px;
+            color: white;
+            margin-top: 60px;
+            margin-left: 60px;
+            margin-bottom: -30px;
+            text-shadow: #6e91d1 0 0 10px, #6e91d1 0 0 20px, #6e91d1 0 0 40px, #6e91d1 0 0 60px, #6e91d1 0 0 120px;
+
+        }
+
+        .circuit {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .circle {
+            background-color: #249;
+            box-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+            border: 10px solid white;
+            border-radius: 20px;
+            width: 20px;
+            height: 20px;
+            z-index: 10;
+        }
+        
+        .line {
+            box-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+            border: 5px solid white;
+            width: 200px;
+            height: 0;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flexContainer">
+        <div class="box">
+            <div class="text">HM</h1>
+        </div>
+        <div class="circuit">
+            <div class="circle"></div>
+            <div class="line"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+
+</html>
