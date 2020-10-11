@@ -34,7 +34,8 @@ export async function getStaticProps() {
         'coverImage',
         'excerpt',
         'youtubeId',
-        'soundcloudId'
+        'soundcloudId',
+        'more'
     ])
 
     for (let i = 0; i < allPosts.length; i++) {

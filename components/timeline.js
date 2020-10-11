@@ -6,14 +6,12 @@ import SoundCloud from './soundcloud'
 import markdownStyles from './markdown-styles.module.css'
 
 export default function Timeline({ events }) {
-    // const url = `https://www.youtube.com/embed/${youtubeId}`;
     return (
-        <div class="timeline">
-            <div class="flex flex-col relative">
-                <div class="line absolute xl:ml-50pc h-full w-1 border-blue-300 border-2 boxGlow"></div>
+        <div className="timeline">
+            <div className="flex flex-col relative">
+                <div className="line absolute xl:ml-50pc h-full w-1 border-blue-300 border-2 boxGlow"></div>
                 {events.map((event) => {
                     const [match, category] = (event.slug) ? event.slug.match(/^([^-]*).*?\d{12}/) : '';
-                    // console.log(`category: ${category}`);
                     const catStyles = {
                         Thoughts: { 'flex-dir': 'flex-row-reverse', padding: 'pr-50pc', tsWidth: 'w-50pc', textAlign: 'text-right'},
                         Tracks: { 'flex-dir': 'flex-row-reverse', padding: 'pr-50pc',  tsWidth: 'w-25pc', textAlign: 'text-right'},
@@ -21,8 +19,11 @@ export default function Timeline({ events }) {
                         Releases: { 'flex-dir': 'flex-row', padding: 'pl-50pc', tsWidth: 'w-50pc', textAlign: 'text-left'},
                     }[category];
                     return (
-                        <div className={`flex flex-col sm:flex-row xl:${catStyles['flex-dir']} xl:${catStyles.padding} w-full z-10 sm:mb-5`}>
-                            <div class={`w-full sm:w-20pc xl:${catStyles.tsWidth} xl:${catStyles.textAlign} mt-2 px-2 border-blue-300 border-t-2 text-blue-100 font-mechsuit text-xs textGlowSmall`}>
+                        <div
+                            className={`flex flex-col sm:flex-row xl:${catStyles['flex-dir']} xl:${catStyles.padding} w-full z-10 sm:mb-5`}
+                            key={event.slug}
+                        >
+                            <div className={`w-full sm:w-20pc xl:${catStyles.tsWidth} xl:${catStyles.textAlign} mt-2 px-2 border-blue-300 border-t-2 text-blue-100 font-mechsuit text-xs textGlowSmall`}>
                                 <DateFormatter dateString={event.date} />
                             </div>
                             <div className={`relative ml-5 mt-2 sm:w-80pc xl:w-50pc sm:ml-0 sm:mt-0 bg-black bg-opacity-25 border-blue-300 border-2 boxGlow overflow-hidden`}>
@@ -38,6 +39,11 @@ export default function Timeline({ events }) {
                                     className={markdownStyles['markdown'], 'm-2 text-s'}
                                     dangerouslySetInnerHTML={{ __html: event.excerpt }}
                                 />
+                                {(event.more) ? (
+                                    <Link as={`/posts/${event.slug}`} href="/posts/[slug]">
+                                        <a className="m-5 textGlow floatRight hover:underline">more...</a>
+                                    </Link>
+                                ) : '' }
                             </div>
                         </div>
                     )}

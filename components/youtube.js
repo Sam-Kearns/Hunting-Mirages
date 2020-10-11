@@ -8,9 +8,9 @@ export default function PostBody({ youtubeId }) {
                     width="100%"
                     height="100%"
                     src={`https://www.youtube.com/embed/${youtubeId}`}
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen="1"
+                    allowFullScreen="1"
                 >
                 </iframe>
             </div>
