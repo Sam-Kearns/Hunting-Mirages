@@ -21,15 +21,6 @@ export default function PostBody({ soundcloudId }) {
                     fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif',
                     fontWeight: '100',
                 }}>
-                    <a href="https://soundcloud.com/sam-kearns" title="Sam Kearns" target="_blank" style={{
-                        color: '#cccccc',
-                        textDecoration: 'none'
-                    }}>Sam Kearns</a>
-                    ·
-                    <a href="https://soundcloud.com/sam-kearns/code-breaker" title="Code Breaker" target="_blank" style={{
-                        color: '#cccccc',
-                        textDecoration: 'none'
-                    }}>Code Breaker</a>
                 </div>
             </div>
         )
