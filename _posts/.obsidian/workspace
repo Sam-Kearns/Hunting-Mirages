@@ -10,11 +10,10 @@
           {
             "id": "aae97bf5e5e4d13d",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughts/202010122224 First Crack At The New Schedule.md",
+                "file": "Tracks/Discover/202010130733 Day One.md",
                 "mode": "source"
               }
             },
@@ -23,10 +22,11 @@
           {
             "id": "ed868dc8ab8b7728",
             "type": "leaf",
+            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughts/202010122224 First Crack At The New Schedule.md",
+                "file": "Tracks/Discover/202010130733 Day One.md",
                 "mode": "preview"
               }
             },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thoughts/202010122224 First Crack At The New Schedule.md"
+                "file": "Tracks/Discover/202010130733 Day One.md"
               }
             }
           }
@@ -95,15 +95,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Tracks/Discover/202010130733 Day One.md",
+    "202010130733.md",
+    "202010130732 Pink Message.md",
+    "202010130732.md",
+    "202010131600 Defend This world.md",
+    "202010130613.md",
+    "Thoughts/202010122224 First Crack At The New Schedule.md",
     "Thoughts/202010121024 New Schedul Day One.md",
     "Tracks/Discover/202010121730 Defy The World.md",
-    "Thoughts/Untitled.md",
-    "Tracks/Discover/Untitled.md",
-    "Tracks/Splurge/202010121600 In Vain.md",
-    "Tracks/Discover/202010121635 Edge Of The Open Wide.md",
-    "Tracks/Splurge/202009260000 Code Breaker.md",
-    "Tracks/Splurge/Untitled.md",
-    "VLog/202002240000 [VLog 11] Captains Log - Situation Report.md",
-    "VLog/202002170000 [VLog 10] Performance Prep.md"
+    "Thoughts/Untitled.md"
   ]
 }

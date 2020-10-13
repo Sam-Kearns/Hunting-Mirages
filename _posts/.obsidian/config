@@ -10,6 +10,7 @@
     "markdown-importer": true,
     "word-count": true,
     "zk-prefixer": true,
-    "translucency": false
+    "translucency": false,
+    "daily-notes": true
   }
 }
