@@ -9,7 +9,7 @@ export default function Timeline({ events }) {
     return (
         <div className="timeline">
             <div className="flex flex-col relative">
-                <div className="line absolute xl:ml-50pc h-full w-1 border-blue-300 border-2 boxGlow"></div>
+                <div className="line absolute h-full w-1 border-blue-300 border-2 boxGlow"></div>
                 {events.map((event) => {
                     const [match, category] = (event.slug) ? event.slug.match(/^([^-]*).*?\d{12}/) : '';
                     const catStyles = {
@@ -20,13 +20,13 @@ export default function Timeline({ events }) {
                     }[category];
                     return (
                         <div
-                            className={`flex flex-col sm:flex-row xl:${catStyles['flex-dir']} xl:${catStyles.padding} w-full z-10 sm:mb-5`}
+                            className={`flex flex-col sm:flex-row w-full z-10 sm:mb-5`}
                             key={event.slug}
                         >
-                            <div className={`w-full sm:w-20pc xl:${catStyles.tsWidth} xl:${catStyles.textAlign} mt-2 px-2 border-blue-300 border-t-2 text-blue-100 font-mechsuit text-xs textGlowSmall`}>
+                            <div className={`w-full sm:w-20pc  mt-2 px-2 border-blue-300 border-t-2 text-blue-100 font-mechsuit text-xs textGlowSmall`}>
                                 <DateFormatter dateString={event.date} />
                             </div>
-                            <div className={`relative ml-5 mt-2 sm:w-80pc xl:w-50pc sm:ml-0 sm:mt-0 bg-black bg-opacity-25 border-blue-300 border-2 boxGlow overflow-hidden`}>
+                            <div className={`relative ml-5 mt-2 sm:w-80pc sm:ml-0 sm:mt-0 bg-black bg-opacity-25 border-blue-300 border-2 boxGlow overflow-hidden`}>
                                 <h3 className="text-1xl m-2 leading-snug font-mechsuit text-blue-100 textGlowSmall">
                                     <Link as={`/posts/${event.slug}`} href="/posts/[slug]">
                                         <a className="hover:underline">{event.title}</a>

@@ -18,6 +18,13 @@
         text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
     }
 
+    h2 {
+        font-family: 'Roboto';
+        color: #f0faff;
+        /* text-shadow: #ffffff 0 0 0.1rem, #3d9184 0 0 0.2rem, #3d9184 0 0 0.3rem, #3d9184 0 0 0.4rem, #3d9184 0 0 0.8rem; */
+        text-shadow: #6e91d1 0 0 0.1rem, #6e91d1 0 0 0.2rem, #6e91d1 0 0 0.4rem, #6e91d1 0 0 0.6rem, #6e91d1 0 0 1.2rem;
+    }
+
     body {
         font-family: 'Roboto';
         color: #fcfcff;
@@ -54,6 +61,7 @@
     .font-mechsuit { font-family: 'Mechsuit'; }
     .font-banner { font-size: 9vw; }
     .fontSubBanner {font-size: 3vw; }
+    .font-2vw { font-size: 2vw; }
 
 @layer utilities {
     @responsive {
@@ -67,6 +75,12 @@
         .ml-50pc { margin-left: 50%; }
         .ml-60pc { margin-left: 60%; }
         .ml-80pc { margin-left: 80%; }
+
+        .mt-1vw { margin-top: 1vw; }
+        .mt--1vw { margin-top: -1vw; }
+        .mt--2vw { margin-top: -2vw; }
+        .mb--1vw { margin-bottom: -1vw; }
+        .mb--2vw { margin-bottom: -2vw; }
 
         .pl-50pc { padding-left: 50%; }
         .pr-50pc { padding-right: 50%; }
