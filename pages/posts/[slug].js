@@ -51,8 +51,9 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  // console.log(`getStaticProps()`)
-  const post = getPostBySlug(params.slug, [
+  const slug = decodeURI(params.slug)
+  console.log(`getStaticProps(${slug})`)
+  const post = getPostBySlug(slug, [
     'title',
     'date',
     'slug',

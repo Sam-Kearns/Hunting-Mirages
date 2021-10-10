@@ -20,7 +20,7 @@ export default function Intro() {
         </section>
         <section className="w-25pc">
           <Container className="flex flex-col items-center">
-            <p class="font-2vw textGlow">Streaming now</p>
+            <p className="font-2vw textGlow">Streaming now</p>
             <img src="assets/bandcamp-logotype-light-512.png" />
             <img className="" src="/assets/Spotify_Logo_RGB_Green.png" />
             <img className="mt-1vw" src="/assets/US-UK_Apple_Music_Listen_on_Badge_RGB_072720.svg" />
