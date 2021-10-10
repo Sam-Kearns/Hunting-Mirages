@@ -61,6 +61,7 @@
     .font-mechsuit { font-family: 'Mechsuit'; }
     .font-banner { font-size: 9vw; }
     .fontSubBanner {font-size: 3vw; }
+    .font-1vw { font-size: 1vw; }
     .font-2vw { font-size: 2vw; }
 
 @layer utilities {
